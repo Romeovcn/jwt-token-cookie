@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Nunito Sans;
+}
+
+.background-container {
+  padding: 40px;
+  width: 100vw;
+  height: 1200px;
+  background-color: #f7df1e;
+  border-bottom: 2px solid black;
+}
+
+.title {
+  font-family: Nunito SANS;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.inscription-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+}
+
+.inscription-sub-container {
+  padding: 20px;
+  height: 300px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+#sign-up-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#sign-up-form > label {
+  margin-top: 10px;
+}
+
+#sign-up-form > button {
+  margin-top: 25px;
+}
+
+#sign-in-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#sign-in-form > label {
+  margin-top: 10px;
+}
+
+#sign-in-form > button {
+  margin-top: 25px;
+}
+
+#logout-button {
+  margin-top: 25px;
+}
